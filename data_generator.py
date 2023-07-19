@@ -70,7 +70,7 @@ if __name__ == "__main__":
         user="myuser",
         password="mypassword",
         host=args.db_host,
-        port=5433,
+        port=5432,
         database="mydatabase",
     )
     create_table(db_connect)

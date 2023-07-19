@@ -39,7 +39,7 @@ if __name__ == "__main__":
         user="myuser",
         password="mypassword",
         host="localhost",
-        port=5433,
+        port=5432,
         database="mydatabase",
     )
     df = get_data()
